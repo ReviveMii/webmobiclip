@@ -1,0 +1,22 @@
+This is a WASM-based MobiClip Player written in Rust, which supports .mo, .mods and .moflex files.
+
+- player.html - The Player
+- mobiclip_wasm/ - The WASM Rust Decoder
+- pkg/ - A compiled version of the WASM Rust Decoder
+- index.html - A site embedding the player
+
+This code is licensed under the GNU GENERAL PUBLIC LICENSE v3
+
+How to build: Install Rust and the dependencies and run "cd mobiclip_wasm && bash build.sh"
+
+How to use: Open https://mobiclip.revivemii.xyz in your Webbrowser
+
+Credits (used as references for the decoding implementation):
+https://github.com/adibsurani/Mobius
+https://gist.github.com/quatric/3e2f0caa5c22a9a8b24d9cf1ffdfe860
+https://github.com/quatric/mobipeg
+https://github.com/quatric/x264
+https://github.com/WiiLink24/FFmpeg
+https://code.pleonex.dev/pleonex/PlayMobic
+https://github.com/Gericom/MobiclipDecoder
+https://github.com/ffmpeg/ffmpeg
